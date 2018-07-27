@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: Wp/bvM+C4Zd5Udc3nbawv5AFVIpP+i+IC0N8avpzk0WQis0ISju0cwkwpZe6LkEW1lxeoA8RQoXJIJW11pzqnLmLtHEdrhrRZqv7a14Zmm/6ByeEdApDQEBtgytDNq7FhIQxtIp4WXvnmuPtNNRwxrJirkBf0xK7yddhehjVroQYpHq1MBqBdIKX9X0Hn014NHOCdvroVajx5v8t84zwVCcbl6fKkYu0Ztf44qAdJEYf9ljvNBTirUQtk8NEAZd2olaYQT0uxdiwUeO0LrSU/TAxLobZXFzFPhQs9Iokud1WH4P4obbdDJDIcWa2LBPiGsOqhE0InTyG7yMNNuAuJMnTRIMb77iju3X5627WWnaAoG3Vh0B1ExTazghrFYz3SLP0auM31KlOOV0yLz33LCQaM2/IPEyF30hiLovS8KAs1Xg4YsSWeMxXFxzy0u3fmNDCFcia6PSWcxmn4x5AMD5WoA8o79ZTFliduSKFlXKZezbOqz5DjCfHVmhXDXAqT6OHyj7pgKP+fwwQ+2WXzQZ73eL1yQaQpMtJBt8vj8FNfV6+2UOGbi/KonwMaO+Bv4bdyGwG2FTWwCanIQQ1FIYeAAjJv0Bta47zFqfV8mx1QTYE1eE5E+SunDdX7zwoJBDx5dEiVaGThrRb1B39TX9UgxK9LDuuMPOfgld+sVU=
+  app: young-hamlet-30534
+  on:
+    repo: ellendunn/blog-posts-mongoose-tests
+    branch: master
